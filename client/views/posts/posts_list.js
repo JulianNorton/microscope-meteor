@@ -9,6 +9,12 @@ var postsData = [
     title: 'Meteor',
     author: 'Tom Coleman',
     url: 'http://meteor.com',
+  },
+
+  {
+    title: 'Test title',
+    author: 'Test author',
+    url: 'http://placehold.it',
   }
 ];
 
