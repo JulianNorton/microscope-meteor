@@ -1,1 +1,2 @@
-// empty
+
+Meteor.subscribe('posts');
