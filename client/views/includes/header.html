@@ -16,6 +16,7 @@
     <div class="collapse navbar-collapse">
      <ul class="nav navbar-nav navbar-right">
        <li><a href="#">{{> loginButtons}}</a></li>
+       <!-- The currentUser helper is provided to us by the accounts package and is the handlebars equivalent of Meteor.user().-->
        {{#if currentUser}}<li><a href="{{pathFor'postSubmit'}}">Submit</a></li>{{/if}}
      </ul>
    </div><!-- /.navbar-collapse -->

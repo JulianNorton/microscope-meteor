@@ -1,0 +1,19 @@
+<template name="postEdit">
+  {{#with post}}
+  <form action="" class="main">
+    <div class="form-control">
+      <label for="url">url</label>
+      <input type="text" name="url" value="{{url}}" placeholder="Your URL">
+    </div>
+    <div class="form-control">
+      <input type="button" value="Submit" class="btn btn-primary submit">
+    </div>
+    <div class="form-control">
+      <a href="#" class="btn btn-danger delete">Delete post</a>
+    </div>
+  </form>
+  {{/with}}
+  
+  {{#else}}
+  {{/else}}
+</template>
